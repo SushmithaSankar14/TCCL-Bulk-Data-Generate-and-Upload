@@ -1,0 +1,6 @@
+reports/
+plain.output
+/output
+run_tests.bat
+*.pyc
+*.csv

@@ -1,0 +1,10 @@
+behave==1.2.6
+PyAutoIt==0.6.5
+pywin32==303
+Requests==2.31.0
+selenium==4.17.2  # Required for WebDriver and ActionChains
+webdriver_manager==4.0.1
+behavex==3.2.0
+faker==25.8.0
+pandas>=1.0.0
+
