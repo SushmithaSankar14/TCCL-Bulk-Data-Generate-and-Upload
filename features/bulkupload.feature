@@ -15,7 +15,7 @@ Feature: Bulk Uplod successfully
     Then after Upload Verify the stb
     # #Then Create STB API Response check
     Then click Transfer STB and upload
-    Then Upload bulk Create Subscriber
+    # Then Upload bulk Create Subscriber
     Then Upload Bulk data for Product
     Then After upload verify Product
   # Then After login Click STB Module

@@ -81,6 +81,9 @@ class LoginPage(BasePage):
             #     context, LoginPageLocators.userNameAfterLogin
             # )
             # print(userNameAfterLogin.text)
+            selectRegion = context.basePage.findElementByXpath(
+                context, LoginPageLocators.regionLocator
+            )
             time.sleep(5)
 
         elif context.env == "PreProd":

@@ -10,6 +10,7 @@ class LoginPageLocators:
         "//img[@src='../assets/images/tccl-logo.png' and @alt='tccl logo']"
     )
     userNameAfterLogin = "(//div//p)[1]"
+    regionLocator = "//div[@class='ng-input']"
 
 
 class SMSLoginPageLocators:
