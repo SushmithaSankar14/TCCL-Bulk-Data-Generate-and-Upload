@@ -57,7 +57,7 @@ def verify_data_generated_correctly(context):
     Product_Clear_data_df = pd.DataFrame(bulk_STB_Product_Clear_data)
 
     # Define folder path where CSVs will be saved
-    folder_path = 'D:\\Automation\\tccl-sms\\TestAutomation-SMS\\TestAutomation-SMS\\features\\files'
+    folder_path = r'D:\Automation\tccl-sms\TestAutomation-SMS\TCCL-Bulk-Data-Generate-and-Upload\features\files'
 
     # Create the folder if it does not exist
     if not os.path.exists(folder_path):

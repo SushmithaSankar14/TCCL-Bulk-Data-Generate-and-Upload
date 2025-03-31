@@ -60,7 +60,7 @@ class BulkDataGenerator(BasePage):
         product_line, count ="AutoProduct", 10
 
         static_data = {
-            "Server Type(Sumavision/ Verimatrix/ Gospell)*": "Sumavision",
+            "Server Type(Sumavision/ Verimatrix/ Gospell)*": "Gospell",
             "Model(PANODIC_SD/ SKARDIN_SD/ YINHE_SD/ YINHE_HD/ YINHE_888HD/ YINHE_777HD/ YINHE_666HD/ YINHE_ZAPPER_HD/ OVT_SD/ OVT_HD)*": "YINHE_HD",
             "Company Make(PANODIC/ SKARDIN/ YINHE/ OVT)*": "YINHE",
             "PO Number*": "PO12345",
@@ -74,7 +74,7 @@ class BulkDataGenerator(BasePage):
             "Products": config_reader.get_tccl_sms_productname(context.env),
             "Gender(Male/Female/Others)*": "Male",
             "LCO Business Code*": config_reader.get_tccl_sms_lcoID(context.env),
-            "Billing Type(Prepaid/Postpaid)*": "Prepaid",
+            "Billing Type(Prepaid/Postpaid)*": "Postpaid",
             "Subscriber Type*(Residence/Commercial/Hotel/Hospital/Office/PublicPlace/Others)": "Residence",
             "Address Line 1*": "Salem",
             "Address Line 2*": "Salem",
@@ -91,7 +91,7 @@ class BulkDataGenerator(BasePage):
             "Validity*": "10",
             "Product Type(AlaCarte/BasePackage/BroadcasterPackage/DPOPackage)*": "BasePackage",
             "Broadcaster Name": "",
-            "Bill Type*(Prepaid/Postpaid)": "Prepaid",
+            "Bill Type*(Prepaid/Postpaid)": "Postpaid",
             "Recurring Period (Monthly/Yearly)": "",
             "Base Price*": "75.50",
             "Tax Template (None/GST/NEWGST)*": "GST",
@@ -236,7 +236,7 @@ class BulkDataGenerator(BasePage):
                 "Cheque/DD No": "",
                 "Bank": "",
                 "Branch": "",
-                "Remarks*": "Test Cash Deposite"
+                "Remarks*": "Test Bank Deposite"
             })
 
             bulk_lco_deposit_online_payment_rows.append({
